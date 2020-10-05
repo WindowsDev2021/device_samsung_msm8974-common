@@ -33,7 +33,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
     
 # Camera
 PRODUCT_PROPERTY_OVERRIDES += \
-    camera2.portability.force_api=1
+    camera2.portability.force_api=1 \
+    ro.vendor.camera.provider24.disable_mem_init=1
 
 # Charger
 PRODUCT_PRODUCT_PROPERTIES += \
