@@ -94,24 +94,8 @@
         <fqname>@1.0::IThermal/default</fqname>
     </hal>
     <hal format="hidl">
-        <name>vendor.lineage.livedisplay</name>
-        <transport>hwbinder</transport>
-        <fqname>@2.0::IAdaptiveBacklight/default</fqname>
-        <fqname>@2.0::IDisplayColorCalibration/default</fqname>
-        <fqname>@2.0::IDisplayModes/default</fqname>
-        <fqname>@2.0::IReadingEnhancement/default</fqname>
-        <fqname>@2.0::ISunlightEnhancement/default</fqname>
-    </hal>
-    <hal format="hidl">
         <name>android.hardware.vibrator</name>
         <transport>hwbinder</transport>
         <fqname>@1.0::IVibrator/default</fqname>
-    </hal>
-    <hal format="hidl">
-        <name>vendor.lineage.touch</name>
-        <transport>hwbinder</transport>
-        <fqname>@1.0::IGloveMode/default</fqname>
-        <fqname>@1.0::IKeyDisabler/default</fqname>
-        <fqname>@1.0::IStylusMode/default</fqname>
     </hal>
 </manifest>
